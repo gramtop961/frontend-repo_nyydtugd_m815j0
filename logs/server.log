@@ -1,0 +1,87 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 331 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.35.114:3000/
+8:15:05 PM [vite] Pre-transform error: Failed to resolve import "prop-types" from "src/components/Navbar.jsx". Does the file exist?
+8:15:05 PM [vite] Pre-transform error: Failed to resolve import "prop-types" from "src/components/BookingWidget.jsx". Does the file exist?
+8:15:05 PM [vite] Pre-transform error: Failed to resolve import "prop-types" from "src/components/AppointmentsPanel.jsx". Does the file exist?
+8:15:05 PM [vite] Pre-transform error: Failed to resolve import "prop-types" from "src/components/AdminPanel.jsx". Does the file exist?
+8:15:06 PM [vite] Internal server error: Failed to resolve import "prop-types" from "src/components/Navbar.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/Navbar.jsx:2:22
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { Calendar, Scissors, Settings, User } from "lucide-react";
+  3  |  import PropTypes from "prop-types";
+     |                         ^
+  4  |  export default function Navbar({ active, onChange }) {
+  5  |    const tabs = [
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+8:15:06 PM [vite] Internal server error: Failed to resolve import "prop-types" from "src/components/BookingWidget.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/BookingWidget.jsx:2:22
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import { useMemo, useState } from "react";
+  3  |  import PropTypes from "prop-types";
+     |                         ^
+  4  |  import { CheckCircle2, Clock4, CalendarDays } from "lucide-react";
+  5  |  function timeStringToMinutes(t) {
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 2)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+8:15:06 PM [vite] Internal server error: Failed to resolve import "prop-types" from "src/components/AppointmentsPanel.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/AppointmentsPanel.jsx:1:22
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import PropTypes from "prop-types";
+     |                         ^
+  3  |  import { Trash2, CalendarPlus, CalendarDays } from "lucide-react";
+  4  |  function buildICS(appointment) {
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+8:15:06 PM [vite] Internal server error: Failed to resolve import "prop-types" from "src/components/AdminPanel.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/components/AdminPanel.jsx:1:22
+  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
+  2  |  import PropTypes from "prop-types";
+     |                         ^
+  3  |  import { Plus, MinusCircle } from "lucide-react";
+  4  |  export default function AdminPanel({
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
